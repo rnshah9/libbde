@@ -1,0 +1,8 @@
+project: rnshah9/libbde
+target: libbde
+tests:
+  - file://tests/data
+image: ghcr.io/rnshah9/playground:libbde
+
+cmds:
+  - cmd: /usr/local/bin/bdeinfo @@
