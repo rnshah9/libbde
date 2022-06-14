@@ -1,6 +1,6 @@
-project: rnshah9/libbde
+project: libbde
 target: bdeinfo
-tests:
+testsuite:
   - file://tests/data
 
 cmds:
